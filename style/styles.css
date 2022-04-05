@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+html{
+    font-family: 'Public Sans', sans-serif;
+}
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+}
+
+.btn{
+    height: 2rem;
+    width: 9rem;
+    border-radius: 15px;
+    border: none;
+    background: rgb(187,255,108);
+    background: linear-gradient(90deg, rgba(187,255,108,1) 9%, rgba(146,194,255,1) 100%);
+    color: var(--white);
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    position: relative;
+    background-color: var(--white);
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.sec-1{
+    display: flex;
+    flex-direction: row;
+}
