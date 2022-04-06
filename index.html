@@ -26,22 +26,27 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <img src="./images/logo.svg" alt="logo">
-    <ul>
-      <li>Home</li>
-      <li>About</li>
-      <li>Contact</li>
-      <li>Blog</li>
-      <li>Careers</li>
-    </ul>
-    <button class="btn btn-invite">Request Invite</button>
-  </nav>
-  <div class="btn-toggle">
-    <i class="fas fa-bars">
-      ::before
-    </i>
+  <div class="nav">
+    <div class="hero-img">
+      <img src="./images/logo.svg" alt="logo">
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Blog</li>
+        <li>Careers</li>
+      </ul>
+      <button class="btn btn-invite">Request Invite</button>
+    </nav>
+    <div class="btn-toggle">
+      <i class="fas fa-bars">
+        <!-- ::before == $0 -->
+      </i>
+    </div>
   </div>
+  
   <main>
     <section class="sec-1">
       <div class="col-1">
@@ -173,7 +178,7 @@
     </section>
     <section class="sec-4">
       <div class="social">
-        <img src="./images/logo.svg" alt="logo">
+        <img src="./images/logo.svg" alt="logo" class="social-img">
         <div class="social-icons">
           <img src="./images/icon-facebook.svg" alt="fb-icon">
           <img src="./images/icon-youtube.svg" alt="yt-icon">
