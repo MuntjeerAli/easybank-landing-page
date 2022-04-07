@@ -214,6 +214,7 @@ p {
 
 .sec-4 .social img {
     padding-bottom: 6rem;
+    filter: brightness(1%) invert();
 }
 
 .sec-4 .social .social-icons {
@@ -229,7 +230,7 @@ p {
 .sec-4 .info {
     display: flex;
     flex-direction: row;
-    gap: 7rem;
+    gap: 6rem;
     padding: 4rem 6rem;
 }
 
